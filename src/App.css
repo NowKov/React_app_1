@@ -2,6 +2,8 @@
 .app-wrapper{
   display: grid;
   width: auto;
+  gap: 10px;
+
   grid-template-rows: 160px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-template-areas: 
@@ -12,41 +14,28 @@
 .header{
     grid-area: header;
     background-color: blue;
+    border-radius: 10px;
 }
 .logo img{
   height: 150px;
   width: 150px;
+  
 }
 .image_length img{
   height: 250px;
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .nav{
     grid-area: sidebar;
     background-color: rgb(14, 95, 95);
+    border-radius: 10px;
+    padding: 10px;
 }
 .content{
     grid-area: content;
     background-color: aqua;
+    border-radius: 10px;
 }
 
-
-.head{
-    display: flex;
-    background-color: gray;
-
-
-}
-.item{
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
-  flex-basis: 40% 60%; 
-}
-.icon{
-  flex-basis: 3%;
-}
-.n_l{
-  flex-basis: 57%;
-}

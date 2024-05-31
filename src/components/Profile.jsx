@@ -1,11 +1,11 @@
 import "./../App.css"
-
+import logotype from "./../usa-new_york-nyc-city-gorod-5663.jpg";
 
 const Profile = () =>{
     return(
         <div className="content">
             <div className="image_length">
-                <img src="https://img.goodfon.ru/original/3360x1050/b/62/usa-new_york-nyc-city-gorod-5663.jpg"></img>
+                <img src={logotype}></img>
                 Contents
             </div>
         </div>
