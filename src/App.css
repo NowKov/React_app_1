@@ -1,6 +1,28 @@
-ul li{
-  list-style-type: georgian;
-} 
+
+.app-wrapper{
+  display: grid;
+  grid-template-rows: 160px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: 
+      " header header "
+      " sidebar content";
+}
+
+.header{
+    grid-area: header;
+    background-color: blue;
+}
+.logo img{
+  height: 150px;
+  width: 150px;
+}
+.nav{
+    grid-area: sidebar;
+}
+.content{
+    grid-area: content;
+}
+
 
 .head{
     display: flex;
