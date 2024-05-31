@@ -1,0 +1,23 @@
+ul li{
+  list-style-type: georgian;
+} 
+
+.head{
+    display: flex;
+    background-color: gray;
+
+
+}
+.item{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  flex-basis: 40% 60%; 
+}
+.icon{
+  flex-basis: 3%;
+}
+.n_l{
+  flex-basis: 57%;
+}
