@@ -1,27 +1,26 @@
 import "./../App.css"
+import class_navbar from "./Navbar.module.css"
 
-
-const Technologies = () =>{
+const Navbar = () =>{
     return(
-        <nav className="nav">
+        <nav className={class_navbar.nav}>
             
-            <div className="item news">
+            <div className={`${class_navbar.item} ${class_navbar.news}`}>
                 <a>
                     News
                 </a>
             </div>
-            <div className="item feed">
+            <div className={class_navbar.item}>
                 <a>
                     Feed
                 </a>
             </div>
-            
-            <div className="item settings">
+            <div className={class_navbar.item}>
                 <a>
                     Settings
                 </a>
             </div>
-            <div className="item music">
+            <div className={class_navbar.item}>
                 <a>
                     Music
                 </a>
@@ -31,5 +30,5 @@ const Technologies = () =>{
 
 };
 
-export default Technologies;
+export default Navbar;
 
