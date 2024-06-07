@@ -1,4 +1,4 @@
-import "./../../App.css"
+
 import logotype from "./usa-new_york-nyc-city-gorod-5663.jpg";
 import class_profile from "./Profile.module.css"
 import MyPosts from "./MyPosts/MyPosts.jsx";
