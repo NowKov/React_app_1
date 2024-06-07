@@ -17,6 +17,7 @@ const MyPosts = () => {
             <Post message="Post 1" />
             <Post message="It's OK" />
             <Post message="It's working" />
+            <Post message="My name pet is Filya" />
           </div>
         </div>
       </div>

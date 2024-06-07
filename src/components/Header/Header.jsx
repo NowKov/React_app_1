@@ -8,7 +8,6 @@ const Header = (props) => {
     <header className={class_header.header}>
       <div className={class_header.logo}>
         <img src={logotype}></img>
-        <input />
       </div>
       <div></div>
     </header>

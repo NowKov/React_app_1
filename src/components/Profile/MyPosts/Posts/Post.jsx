@@ -8,6 +8,7 @@ const Post = (props) => {
     <div className={class_post.post}>
       <img src={avat}></img>
       {props.message}
+      <button>Like</button>
     </div>
   );
 };
