@@ -18,7 +18,7 @@
 }
 .item:hover {
   color: rgb(197, 96, 96);
-  text-shadow: 2px 2px blue;
+  text-shadow: 0.5px 0.5px blue;
 }
 a:hover {
 }
