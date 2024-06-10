@@ -1,22 +1,24 @@
-.nav{
-    grid-area: sidebar;
-    background-color: rgb(29, 184, 184);
-    border-radius: 10px;
-    padding-left: 20px;
-    padding-top: 10px;
+.nav {
+  grid-area: sidebar;
+  background-color: #e96812;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
 
-    align-self: start;
-    color: white;
-    font-size: 19px;
+  align-self: start;
+  color: white;
+  font-size: 19px;
 }
-.item{
+.item {
+  padding-bottom: 20px;
+}
 
-    padding-bottom: 20px;
+.item.news.feed.settings.music {
+  color: rgb(3, 17, 3);
 }
-
-.item.news{
-    color: rgb(3, 17, 3);
+.item:hover {
+  color: rgb(197, 96, 96);
+  text-shadow: 2px 2px blue;
 }
-.item.feed{
-    color: rgb(3, 17, 3);
+a:hover {
 }

@@ -1,19 +1,18 @@
-
-.app-wrapper{
+.app-wrapper {
   display: grid;
   width: auto;
   gap: 10px;
 
   grid-template-rows: 160px 1fr;
   grid-template-columns: 2fr 10fr;
-  grid-template-areas: 
-      " header header "
-      " sidebar content";
+  grid-template-areas:
+    " header header "
+    " sidebar content";
 }
 
-
-
-
-
-
-
+.app-wrapper-content {
+  grid-area: content;
+  background-color: #e96812;
+  border-radius: 10px;
+  color: black;
+}

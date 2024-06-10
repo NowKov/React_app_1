@@ -8,6 +8,7 @@ const Header = (props) => {
     <header className={class_header.header}>
       <div className={class_header.logo}>
         <img src={logotype}></img>
+        <span>My first application messanger</span>
       </div>
       <div></div>
     </header>

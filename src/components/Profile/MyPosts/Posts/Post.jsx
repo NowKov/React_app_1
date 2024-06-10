@@ -1,14 +1,22 @@
 import class_post from "./Post.module.css";
-import avat from "./1497458933_lyaga.png";
+var j = 0;
+var like_Post = 0;
+function iLP() {
+  return like_Post;
+}
 
-let way =
-  "C:/New_folder/React/Projects/1_First_project/react_first/src/App.css";
 const Post = (props) => {
   return (
     <div className={class_post.post}>
-      <img src={avat}></img>
-      {props.message}
-      <button>Like</button>
+      <div className={class_post.post_img}>
+        <img src={props.img_avat}></img>
+      </div>
+      <div>
+        {" "}
+        {props.message}
+        <button onClick={iLP}>Like</button>
+        <a>{props.like_post}</a>
+      </div>
     </div>
   );
 };

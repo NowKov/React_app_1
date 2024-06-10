@@ -1,17 +1,6 @@
-.image_length img{
-    height: 250px;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-
-  .content{
-    grid-area: content;
-    background-color: aqua;
-    border-radius: 10px;
-
-    color: black;
-}
-.post{
-  color: rgb(68, 110, 5);
+.image_length img {
+  height: 250px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }

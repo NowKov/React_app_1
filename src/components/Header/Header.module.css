@@ -1,11 +1,17 @@
-.header{
-    grid-area: header;
-    background-color: rgb(0, 230, 230);
-    border-radius: 10px;
+.header {
+  grid-area: header;
+  background-color: #ffb888;
+  border-radius: 10px;
 }
 
-.logo img{
-    height: 150px;
-    width: 150px;
-    
-  }
+.logo img {
+  height: 150px;
+  width: 150px;
+}
+
+span {
+  position: absolute;
+  padding: 50px 0px 20px 150px;
+  font-size: 34px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
