@@ -1,0 +1,20 @@
+.nav {
+  grid-area: sidebar;
+  background-color: #e96812;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+
+  align-self: start;
+
+  font-size: 19px;
+}
+a {
+  color: white;
+}
+.item a {
+  padding: 5px;
+}
+.active a {
+  color: rgb(99, 0, 0);
+}

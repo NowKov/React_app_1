@@ -6,19 +6,17 @@
   padding-top: 10px;
 
   align-self: start;
-  color: white;
+
   font-size: 19px;
 }
-.item {
-  padding-bottom: 20px;
-}
 
-.item.news.feed.settings.music {
-  color: rgb(3, 17, 3);
+a {
+  color: white;
 }
-.item:hover {
-  color: rgb(197, 96, 96);
-  text-shadow: 0.5px 0.5px blue;
+.item {
+  padding: 5px 5px 10px 5px;
 }
-a:hover {
+a[class="active"] {
+  color: rgb(0, 212, 81);
+  text-decoration: none;
 }

@@ -1,0 +1,23 @@
+.nav {
+  grid-area: sidebar;
+  background-color: #e96812;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+
+  align-self: start;
+
+  font-size: 19px;
+}
+
+a.disactiveLink {
+  color: white;
+}
+.item {
+  padding: 5px 5px 10px 5px;
+}
+
+a.activeLink {
+  color: rgb(0, 212, 81);
+  text-decoration: none;
+}
