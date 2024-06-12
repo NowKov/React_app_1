@@ -1,0 +1,17 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogs .active {
+  color: gold;
+}
+.dialog {
+  padding: 10px;
+  font-size: 15px;
+  color: aliceblue;
+}
+.message {
+  padding: 10px;
+  font-size: 15px;
+  color: aliceblue;
+}

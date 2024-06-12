@@ -21,3 +21,8 @@ a.activeLink {
   color: rgb(0, 212, 81);
   text-decoration: none;
 }
+
+a[class="active"] {
+  color: rgb(0, 212, 81);
+  text-decoration: none;
+}

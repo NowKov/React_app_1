@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 // import class_navbar from "./Navbar.module.css";
-import class_navbar from "./Navbar1.module.css";
+import class_navbar from "./Navbar.module.css";
 // import "./Navbar.css";
 const setActive = ({ isActive }) =>
   isActive ? class_navbar.activeLink : class_navbar.disactiveLink;

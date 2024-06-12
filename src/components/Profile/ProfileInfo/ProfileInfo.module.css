@@ -1,0 +1,31 @@
+.image_length .imageLength {
+  height: 250px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.avaDescription {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.ava .imgAva {
+  height: 150px;
+  width: 200px;
+  border-radius: 10px;
+  /* position: absolute; */
+  /* bottom: 220px; */
+}
+.blockAva {
+  height: 90px;
+  width: 250px;
+}
+
+.ava {
+  position: absolute;
+  bottom: 140px;
+  padding-left: 10px;
+}
+.description {
+}
